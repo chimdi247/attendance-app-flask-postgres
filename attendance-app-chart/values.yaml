@@ -28,9 +28,9 @@ dbSecretName: db-secrets
   
 config:
   name: db-config
-  DB_HOST: database-1.cluster-cjo2qwqge1cu.ap-south-1.rds.amazonaws.com
+  DB_HOST: 10.30.144.3
   DB_PORT: "5432"
-  DB_NAME: postgres
+  DB_NAME: postgres-db
 
 # This is for setting up a service more information can be found here: https://kubernetes.io/docs/concepts/services-networking/service/
 service:
