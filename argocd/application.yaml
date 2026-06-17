@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/gauri17-pro/attendance-flask-app.git
+    repoURL: https://github.com/chimdi247/attendance-app-flask-postgres.git
     targetRevision: HEAD
     path: attendance-app-chart
     helm:
