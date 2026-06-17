@@ -3,8 +3,8 @@ kind: ConfigMap
 metadata:
   name: web-config 
 data:
-  DB_USER: "postgres"
-  DB_PASSWORD: "postgres"
-  DB_HOST: "database-1.cluster-cjo2qwqge1cu.ap-south-1.rds.amazonaws.com"
+  DB_USER: "appuser"
+  DB_PASSWORD: "Anambra247$"
+  DB_HOST: "10.30.144.3"
   DB_PORT: "5432"
-  DB_NAME: "postgres"
+  DB_NAME: "postgres-db"
