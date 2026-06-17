@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: attendance-app-container 
-          image: chimdi247/attendance-app
+          image: chimdi247/attendance-app:v1
           ports:
             - containerPort: 5000
           envFrom:
