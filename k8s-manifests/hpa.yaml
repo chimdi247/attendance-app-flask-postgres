@@ -2,7 +2,7 @@ apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
   name: attendance-app-hpa
-  namespace: default
+  namespace: attendance-app
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
